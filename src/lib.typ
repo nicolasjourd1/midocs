@@ -1,16 +1,16 @@
-#import "src/core/config.typ": get-default-config, merge-config
-#import "src/core/themes.typ": get-theme
-#import "src/core/typography.typ": get-typography
-#import "src/core/i18n.typ": get-strings
+#import "core/config.typ": get-default-config, merge-config
+#import "core/themes.typ": get-theme
+#import "core/typography.typ": get-typography
+#import "core/i18n.typ": get-strings
 
-#import "src/templates/article.typ": article-template
-#import "src/templates/report.typ": report-template
-#import "src/templates/book.typ": book-template
+#import "templates/article.typ": article-template
+#import "templates/report.typ": report-template
+#import "templates/book.typ": book-template
 
-#import "src/utils/math.typ": *
-#import "src/utils/cs.typ": *
+#import "utils/math.typ": *
+#import "utils/cs.typ": *
 
-#import "src/utils/math.typ": config-state
+#import "utils/math.typ": config-state
 
 #let build-config(
   type: "article",

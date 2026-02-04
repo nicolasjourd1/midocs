@@ -1,0 +1,23 @@
+[package]
+name = "midocs"
+version = "0.1.0"
+entrypoint = "src/lib.typ"
+authors = [ "Nicolas Jourdain <github.com/nicolasjourd1>" ]
+license = "MIT"
+description = ""
+homepage = ""
+repository = "https://github.com/nicolasjourd1/midocs"
+keywords = []
+categories = []
+disciplines = []
+# compiler = ""
+exclude = [
+  ".github",
+  "docs",
+  "scripts",
+  "tests",
+  ".typstignore",
+  "Justfile",
+  "thumbnail-dark.svg",
+  "thumbnail-light.svg",
+]
